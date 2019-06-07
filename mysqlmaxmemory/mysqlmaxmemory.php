@@ -23,7 +23,7 @@ function mysqlmaxmemory_share_result()
                         "query_cache_size" => -1,
                         "tmp_table_size" => -1,
                         "innodb_buffer_pool_size" => -1,
-                        "innodb_additional_mem_pool_size" => -1,
+                        "innodb_additional_mem_pool_size" => 0,
                         "innodb_log_buffer_size" => -1,
                         //
                         "max_connections" => -1,
@@ -168,7 +168,7 @@ function mysqlmaxmemory($atts)
 			"query_cache_size" => -1,
 			"tmp_table_size" => -1,
 			"innodb_buffer_pool_size" => -1,
-			"innodb_additional_mem_pool_size" => -1,
+			"innodb_additional_mem_pool_size" => 0,
 			"innodb_log_buffer_size" => -1,
 			//
 			"max_connections" => -1,
